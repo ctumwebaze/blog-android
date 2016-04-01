@@ -15,10 +15,10 @@ echo ">> create a symlink to the zipalign tool in the SDK tools directory. This 
 ln -fs $ANDROID_HOME/build-tools/20.0.0/zipalign $ANDROID_HOME/tools/zipalign
 
 echo ">> create certificate file from environment variable."
-echo $SIGNING_CERTIFICATE | sed 's/\\n/\'$'\n/g' > server.crt
+echo $SIGNING_CERTIFICATE | tr "\t" "\n" > server.crt
 
 echo ">> create signing key from environment variable."
-echo $SIGNING_KEY | sed 's/\\n/\'$'\n/g' > server.key
+echo $SIGNING_KEY | tr "\t" "\n" > server.key
 
 echo ">> create a p12 keystore file from the certificate and key file above."
 openssl pkcs12 -export \

@@ -1,3 +1,10 @@
 *.crt
 *.key
 *.p12
+*.iml
+.idea/
+gem/
+gen/
+*gen-external-apklibs/
+target/
+.Ds_Store

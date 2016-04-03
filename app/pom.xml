@@ -34,6 +34,12 @@
             <version>${android.version}</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.android.support</groupId>
+            <artifactId>appcompat-v7</artifactId>
+            <version>${android.support.lib.version}</version>
+            <type>aar</type>
+        </dependency>
     </dependencies>
 
     <build>

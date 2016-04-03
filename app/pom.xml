@@ -10,7 +10,7 @@
     </parent>
 
     <groupId>org.tumwebaze.android.blog</groupId>
-    <artifactId>user-app</artifactId>
+    <artifactId>blog-app</artifactId>
     <version>1.0.0</version>
     <packaging>apk</packaging>
     <name>Android Blog App</name>

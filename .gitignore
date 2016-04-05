@@ -8,3 +8,4 @@ gen/
 *gen-external-apklibs/
 target/
 .Ds_Store
+*.keystore
